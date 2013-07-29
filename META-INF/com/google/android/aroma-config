@@ -146,7 +146,7 @@ selectbox(
   
   "Centered Clock 0% trasparent","",1,
   "Centered Clock 25% trasparent","",0,
-  "Centered Clock 50% trasparent","",0
+  "Centered Clock 50% trasparent","",0,
   "Centered Clock 75% trasparent","",0,
   "Centered Clock 100% trasparent","",0
 );
