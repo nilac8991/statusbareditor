@@ -129,8 +129,8 @@ selectbox(
   "icons/apps",
   "version.prop",
   
-  "ADC CM10.1 Release 5","Based rom too",1,
-  "Davidteri CM10.1.1 Release 5","Based room too",0
+  "ADC CM10.1 Release 5","Based ROM too",1,
+  "Davidteri CM10.1.1 Release 5","Based ROM too",0
 );
 
 ###################################################################################################################
@@ -144,11 +144,11 @@ selectbox(
   "icons/apps",
   "status.prop",
   
-  "Centered Clock 0% trasparent","",1,
-  "Centered Clock 25% trasparent","",0,
-  "Centered Clock 50% trasparent","",0,
-  "Centered Clock 75% trasparent","",0,
-  "Centered Clock 100% trasparent","",0
+  "0%   Transparent","",1,
+  "25%  Transparent","",0,
+  "50%  Transparent","",0,
+  "75%  Transparent","",0,
+  "100% Transparent","",0
 );
 
 ###################################################################################################################
