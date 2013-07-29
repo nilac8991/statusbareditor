@@ -193,9 +193,8 @@ install(
 
 viewbox(
     "Installation was successful!",
-    "You are now running <b>"+ini_get("rom_name")+"</b>.\n\n"+
-    "<b>Do at least 1 full system boot before flashing any mods!</b>\n\n"+
-    "<b>Please thanks us and rate xda thread</b>\n\n"+
+    "<b>Remember to do Wipe Cache and Dalvik after exit Aroma Installer</b>\n\n"+
+    "<b>Please thanks us and rate on the XDA thread</b>\n\n"+
     "<#selectbg_g><b>Enjoy your Status Bar!</b></#>\n\n",
     "@welcome"
 );
