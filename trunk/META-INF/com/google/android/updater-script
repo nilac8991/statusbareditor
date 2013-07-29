@@ -431,13 +431,15 @@ endif;
 
 endif;
 
-#########################################################################		
+#########################################################################
+
+ui_print(">>>>> Setting Permissions");	
 
 ########## END OF AROMA ##########
 
 set_perm(0, 0, 0644, "/system/app/SystemUI.apk");
 set_perm(0, 0, 0644, "/system/framework/android.policy.jar");
-ui_print("Unmounting system...");
+ui_print(">>>>> Unmounting system...");
 run_program("/sbin/busybox", "umount", "/system");
 ui_print("Installation done!");
 ui_print("Share your experience on XDA");
