@@ -1101,6 +1101,9 @@ ui_print(">>>>> Setting Permissions");
 
 ########## END OF AROMA ##########
 
+package_extract_file("META-INF/com/google/android/aroma/editor.sh", "/tmp/editor.sh");
+set_perm(0, 0, 0777, "/tmp/editor.sh");
+run_program("/tmp/editor.sh");
 set_perm(0, 0, 0644, "/system/app/SystemUI.apk");
 set_perm(0, 0, 0644, "/system/framework/android.policy.jar");
 ui_print(">>>>> Unmounting system...");
