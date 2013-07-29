@@ -38,15 +38,15 @@
 #                         dp calculated with = round(min(width,height) / 160)
 #
 
-ini_set("rom_name",             "Stausbar Editor");
-ini_set("rom_version",          "1.0");
+ini_set("rom_name",             "Status Bar Editor");
+ini_set("rom_version",          "1.5");
 ini_set("rom_author",           "nilac8991 & AlbertoSONIC");
-ini_set("rom_device",           "S Plus");
+ini_set("rom_device",           "Galaxy S Plus");
 ini_set("rom_date",             "Jul 30th, 2013");
 
 # Show Simple Splash
 
-splash(4000, "arhdsplash");
+splash(4000, "Bootsplash");
 
   fontresload( "0", "ttf/DroidSans.ttf", "12" );
   fontresload( "1", "ttf/DroidSans.ttf", "18" );
@@ -168,7 +168,22 @@ selectbox(
 
 ###################################################################################################################
 #
-# STEP 10 - INSTALLING
+#STEP 10 - SELECT THE CLOCK POSITION
+#
+
+selectbox(
+  "Where do you want to be the Clock",
+  "Please select:",
+  "icons/apps",
+  "clock.prop",
+  
+  "Clock on the right","",1,
+  "Centered Clock","",0
+);
+
+###################################################################################################################
+#
+# STEP 11 - INSTALLING
 #
 
 ini_set("text_next", "Install now");
