@@ -46,7 +46,7 @@ ini_set("rom_date",             "Jul 30th, 2013");
 
 # Show Simple Splash
 
-splash(4000, "Bootsplash");
+splash(4000, "arhdsplash");
 
   fontresload( "0", "ttf/DroidSans.ttf", "12" );
   fontresload( "1", "ttf/DroidSans.ttf", "18" );
