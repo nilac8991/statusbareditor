@@ -2,7 +2,7 @@ ui_print("***************************");
 ui_print("*                         *");
 ui_print("*    Status bar editor    *");
 ui_print("* Written by AlbertoSONIC *");
-ui_print("*    Files by Nilac8991   *");
+ui_print("*    Files by nilac8991   *");
 ui_print("*                         *");
 ui_print("***************************");
 ui_print(" ");
