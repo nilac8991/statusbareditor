@@ -44,17 +44,6 @@ ini_set("rom_author",           "nilac8991 & AlbertoSONIC");
 ini_set("rom_device",           "Galaxy S Plus");
 ini_set("rom_date",             "Jul 30th, 2013");
 
-##
-# Show Simple Splash
-#
-splash(
-#  #-- Duration 2000ms / 2 seconds
-    2000,
-  
-  #-- <AROMA Resource Dir>/arhdsplash.png
-    "arhdsplash"
-);
-  
   ##
 # Show Animated Splash
 #
@@ -69,6 +58,17 @@ anisplash(
     "splash/a4", 30,
     "splash/a5", 30,
     "splash/a6", 30
+);
+  
+  ##
+# Show Simple Splash
+#
+splash(
+#  #-- Duration 4000ms / 4 seconds
+    2000,
+  
+  #-- <AROMA Resource Dir>/arhdsplash.png
+    "arhdsplash"
 );
   
   fontresload( "0", "ttf/DroidSans.ttf", "12" );
