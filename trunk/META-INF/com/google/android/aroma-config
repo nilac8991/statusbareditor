@@ -39,10 +39,10 @@
 #
 
 ini_set("rom_name",             "Status Bar Editor");
-ini_set("rom_version",          "1.5");
+ini_set("rom_version",          "2.0");
 ini_set("rom_author",           "nilac8991 & AlbertoSONIC");
 ini_set("rom_device",           "Galaxy S Plus");
-ini_set("rom_date",             "Jul 30th, 2013");
+ini_set("rom_date",             "Jul 31, 2013");
 
   ##
 # Show Animated Splash
