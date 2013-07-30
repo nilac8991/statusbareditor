@@ -143,7 +143,25 @@ viewbox(
 
 ###################################################################################################################
 #
-# STEP 5 - SELECT YOUR THEME
+# STEP 4 - CHANGELOG
+#
+textbox(
+  #-- Title
+    "<~changelog.title>",
+  
+  #-- Subtitle
+    "<~changelog.desc>",
+  
+  #-- Icon
+    "@update",
+  
+  #-- Arg 4
+    resread("changelog.txt")
+);
+
+###################################################################################################################
+#
+# STEP 5 - SELECT YOUR ROM
 #
 
 selectbox(
@@ -158,7 +176,7 @@ selectbox(
 
 ###################################################################################################################
 #
-# STEP 5 - SELECT YOUR STATUSBAR
+# STEP 6 - SELECT YOUR STATUSBAR
 #
 
 selectbox(
@@ -176,7 +194,7 @@ selectbox(
 
 ###################################################################################################################
 #
-# STEP 9 - SELECT ENHANCEMENTS
+# STEP 7 - SELECT ENHANCEMENTS
 #
 
 selectbox(
@@ -191,7 +209,7 @@ selectbox(
 
 ###################################################################################################################
 #
-#STEP 10 - SELECT THE CLOCK POSITION
+#STEP 8 - SELECT THE CLOCK POSITION
 #
 
 selectbox(
@@ -206,7 +224,7 @@ selectbox(
 
 ###################################################################################################################
 #
-# STEP 11 - INSTALLING
+# STEP 9 - INSTALLING
 #
 
 ini_set("text_next", "Install now");
