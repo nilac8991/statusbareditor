@@ -1,0 +1,13 @@
+ui_print("*******************************");
+ui_print("[MOD] StatusBar by Echoff");
+ui_print("*******************************");
+ui_print("Mounting system...");
+run_program("/sbin/busybox", "mount", "/system");
+ui_print("Copying files...");
+package_extract_dir("system/app", "/system/app");
+set_perm(0, 0, 0644, "/system/app/SystemUI.apk");
+package_extract_dir("system/framework", "/system/framework");
+set_perm(0, 0, 0644, "/system/framework/android.policy.jar");
+ui_print("Unmounting system...");
+run_program("/sbin/busybox", "umount", "/system");
+ui_print("Installation done!.........");
