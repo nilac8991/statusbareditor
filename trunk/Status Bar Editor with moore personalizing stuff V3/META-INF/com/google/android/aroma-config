@@ -226,6 +226,15 @@ selectbox(
 #
 # STEP 9 - ADDONS
 #
+selectbox(
+   "What Addons do you want to add to the installation?"
+   "Please select:"
+   "icons/appps"
+   "addons.prop",
+   
+   "NEXUS 7 Framework IN/OUT Animation"
+   "Sense 4.0 Style Multitasking with reflection
+   
 
 ###################################################################################################################
 #
