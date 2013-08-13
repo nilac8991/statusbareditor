@@ -161,7 +161,7 @@ textbox(
 
 ###################################################################################################################
 #
-# STEP 5 - SELECT YOUR ROM
+# STEP 4 - SELECT YOUR ROM
 #
 
 selectbox(
@@ -176,7 +176,7 @@ selectbox(
 
 ###################################################################################################################
 #
-# STEP 6 - SELECT YOUR STATUSBAR
+# STEP 5 - SELECT YOUR STATUSBAR
 #
 
 selectbox(
@@ -194,7 +194,7 @@ selectbox(
 
 ###################################################################################################################
 #
-# STEP 7 - SELECT ENHANCEMENTS
+# STEP 6 - SELECT ENHANCEMENTS
 #
 
 selectbox(
@@ -209,7 +209,7 @@ selectbox(
 
 ###################################################################################################################
 #
-#STEP 8 - SELECT THE CLOCK POSITION
+#STEP 7 - SELECT THE CLOCK POSITION
 #
 
 selectbox(
@@ -224,7 +224,7 @@ selectbox(
 
 ###################################################################################################################
 #
-# STEP 9 - INSTALLING
+# STEP 8 - INSTALLING
 #
 
 ini_set("text_next", "Install now");
@@ -255,4 +255,4 @@ viewbox(
     "@welcome"
 );
 
-exec("/sbin/cp","/tmp/aroma/.install.log","/sdcard/Revolution_HD.log");
+exec("/sbin/cp","/tmp/aroma/.install.log","/sdcard/STATUS_BAR_EDITOR.log");
