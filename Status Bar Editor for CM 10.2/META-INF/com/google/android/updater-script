@@ -1,0 +1,568 @@
+ui_print("***************************");
+ui_print("*                         *");
+ui_print("*    Status bar editor    *");
+ui_print("* Written by AlbertoSONIC *");
+ui_print("*    Files by nilac8991   *");
+ui_print("*                         *");
+ui_print("***************************");
+ui_print(" ");
+ui_print("Mounting system...");
+run_program("/sbin/busybox", "mount", "/system");
+########## AROMA ##########
+
+run_program("/sbin/sync");
+	
+######################################################################	
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav0/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################	
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav25/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "3"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav50/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "4"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav75/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "5"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav100/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav0b/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav25b/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "3"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav50b/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "4"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav75b/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################	
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "5"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "1"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav100b/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+
+#########################################################################	
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav0bc/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################	
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav25bc/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "3"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav50bc/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "4"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav75bc/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "5"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav100bc/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "1"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav0c/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav25c/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "3"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav50c/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "4"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav75c/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################	
+
+if
+  file_getprop("/tmp/aroma-data/version.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/status.prop","selected.0") == "5"
+then
+
+if
+  file_getprop("/tmp/aroma-data/battery.prop","selected.0") == "2"
+then
+
+if
+  file_getprop("/tmp/aroma-data/clock.prop","selected.0") == "2"
+then
+  ui_print(">>> Setting Up StatusBar");
+  package_extract_dir("additions/dav100c/system", "/system");
+endif;
+
+endif;
+
+endif;
+
+endif;
+
+#########################################################################
+
+ui_print(">>>>> Setting Permissions");	
+
+########## END OF AROMA ##########
+
+package_extract_file("META-INF/com/google/android/aroma/editor.sh", "/tmp/editor.sh");
+set_perm(0, 0, 0777, "/tmp/editor.sh");
+run_program("/tmp/editor.sh");
+set_perm(0, 0, 0644, "/system/app/SystemUI.apk");
+set_perm(0, 0, 0644, "/system/framework/android.policy.jar");
+ui_print(">>>>> Unmounting system...");
+run_program("/sbin/busybox", "umount", "/system");
+ui_print("Installation done!");
+ui_print("Share your experience on XDA");
