@@ -12,4 +12,10 @@ Version 2.00----> - Added Transparent ststus bar with centered clock for CM 10.1
                     editor.sh (Thanks Alberto)
                   - Added Changelog section in Aroma Installer
                   - Changed theme from Sense to Touchwiz
+
+Version 3.00 (Final Version)
+
+- Added Compatibility for CM 10.1 RC6 By ADC Team
+- Some fixes made in the aroma installer
+- Final Release for CM 10.1
                   
