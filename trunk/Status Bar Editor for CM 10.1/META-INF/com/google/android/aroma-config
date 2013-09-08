@@ -170,8 +170,8 @@ selectbox(
   "icons/apps",
   "version.prop",
   
-  "ADC CM10.1 Release 5","Based ROM too",1,
-  "Davidteri CM10.1.1 Release 6","Based ROM too",0
+  "ADC CM 10.1 Release 6","Based ROM too",1,
+  "Davidteri CM 10.1 Release 5","Based ROM too",0
 );
 
 ###################################################################################################################
